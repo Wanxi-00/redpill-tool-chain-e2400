@@ -26,7 +26,7 @@ jobs:
         run: chmod 0755 ./redpill_tool_chain.sh
         
       - name : Add driver
-        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/rpext-index.json
+        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atl2/rpext-index.json
 
       - name: Build docker image
         run: ./redpill_tool_chain.sh build ds918p-7.1.0-42661
